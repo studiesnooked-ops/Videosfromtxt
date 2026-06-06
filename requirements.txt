@@ -5,9 +5,6 @@ yt-dlp
 aiohttp
 aiofiles
 python-dotenv
-pyrogram
-tgcrypto
-yt-dlp
 flask
 gunicorn
 requests
