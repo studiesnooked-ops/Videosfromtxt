@@ -1,10 +1,12 @@
 pyrogram
 tgcrypto
+ffmpeg-python
+moviepy
+flask
 motor
 yt-dlp
 aiohttp
 aiofiles
 python-dotenv
-flask
 gunicorn
 requests
