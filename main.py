@@ -1,3 +1,11 @@
+from handlers.start import register_start
+
+def main():
+    print("Bot starting...")
+    register_start()
+
+if __name__ == "__main__":
+    main()
 from pyrogram import Client
 from config import API_ID, API_HASH, BOT_TOKEN
 from handlers.start import register_start
