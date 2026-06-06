@@ -7,10 +7,10 @@ def register_admin(app):
     async def stats(_, message):
         if message.from_user.id != OWNER_ID:
             return
-        await message.reply("Statistics module placeholder")
+        await message.reply("Stats panel")
 
     @app.on_message(filters.command("broadcast"))
     async def broadcast(_, message):
         if message.from_user.id != OWNER_ID:
             return
-        await message.reply("Broadcast module placeholder")
+        await message.reply("Broadcast panel")
